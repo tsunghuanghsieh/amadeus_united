@@ -1,0 +1,28 @@
+{
+    "env": "test",
+    "fareClass_Explanation": "https://thepointsguy.com/guide/united-fare-classes/",
+    "fareClass_UPGRADE_BUSINESS_PN": "PN: Global Services mileage and PlusPoints, and instant upgrades for all other customers",
+    "fareClass_UPGRADE_BUSINESS_PZ": "PZ: Platinum and Premier 1K PlusPoints and all mileage upgrade awards",
+    "fareClass_UPGRADE_PREMECON_RN": "RN: Upgrades for all members",
+    "fareClass_AWARD_BUSINESS_IN": "IN: Saver award for elites",
+    "fareClass_AWARD_BUSINESS_I": "I: Saver award for all other customers and partner redemptions",
+    "fareClass_AWARD_ECONOMY_XN": "XN: Saver award for elites and credit cardholders",
+    "fareClass_AWARD_ECONOMY_X": "X: Saver award for all other customers and partner redemptions",
+    "fareClasses": ["PZ", "RN", "IN", "I", "P", "R"],
+    "minimumTix": 1,
+    "searchBeginDate": "2025-07-31",
+    "searchEndDate": "2025-07-31",
+    "sleep_in_second_INFO": "PROD: 40 transactions per second, per user",
+    "sleep_in_second": 1,
+    "tix_available_days_in_advance": 337,
+    "trips": [
+        {
+            "flightFrom": "SFO",
+            "flightTo": "AKL"
+        },
+        {
+            "flightFrom": "SFO",
+            "flightTo": "PPT"
+        }
+    ]
+}

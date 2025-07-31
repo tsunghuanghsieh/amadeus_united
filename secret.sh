@@ -1,0 +1,6 @@
+#!/bin/zsh
+
+export AMADEUS_API_KEY_PROD=
+export AMADEUS_API_SECRET_PROD=
+export AMADEUS_API_KEY_TEST=
+export AMADEUS_API_SECRET_TEST=

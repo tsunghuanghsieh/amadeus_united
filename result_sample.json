@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "count": 2
+  },
+  "data": [
+    {
+      "type": "flight-availability",
+      "id": "1",
+      "originDestinationId": "1",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "paymentCardRequired": false,
+      "duration": "PT13H5M",
+      "segments": [
+        {
+          "departure": {
+            "iataCode": "SFO",
+            "terminal": "I",
+            "at": "2025-08-14T23:05:00"
+          },
+          "arrival": {
+            "iataCode": "AKL",
+            "terminal": "I",
+            "at": "2025-08-16T07:10:00"
+          },
+          "carrierCode": "NZ",
+          "number": "9817",
+          "aircraft": {
+            "code": "777"
+          },
+          "operating": {
+            "carrierCode": "UA"
+          },
+          "id": "1",
+          "numberOfStops": 0,
+          "blacklistedInEU": false,
+          "availabilityClasses": [
+            {
+              "numberOfBookableSeats": 4,
+              "class": "C"
+            },
+            {
+              "numberOfBookableSeats": 4,
+              "class": "D"
+            },
+            {
+              "numberOfBookableSeats": 4,
+              "class": "Z"
+            },
+            {
+              "numberOfBookableSeats": 4,
+              "class": "J"
+            },
+            {
+              "numberOfBookableSeats": 7,
+              "class": "U"
+            },
+            {
+              "numberOfBookableSeats": 7,
+              "class": "O"
+            },
+            {
+              "numberOfBookableSeats": 7,
+              "class": "A"
+            },
+            {
+              "numberOfBookableSeats": 7,
+              "class": "Y"
+            },
+            {
+              "numberOfBookableSeats": 7,
+              "class": "B"
+            },
+            {
+              "numberOfBookableSeats": 7,
+              "class": "M"
+            },
+            {
+              "numberOfBookableSeats": 7,
+              "class": "H"
+            },
+            {
+              "numberOfBookableSeats": 7,
+              "class": "Q"
+            },
+            {
+              "numberOfBookableSeats": 7,
+              "class": "V"
+            },
+            {
+              "numberOfBookableSeats": 7,
+              "class": "W"
+            },
+            {
+              "numberOfBookableSeats": 7,
+              "class": "T"
+            },
+            {
+              "numberOfBookableSeats": 7,
+              "class": "L"
+            },
+            {
+              "numberOfBookableSeats": 7,
+              "class": "S"
+            },
+            {
+              "numberOfBookableSeats": 7,
+              "class": "G"
+            },
+            {
+              "numberOfBookableSeats": 7,
+              "class": "K"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-availability",
+      "id": "2",
+      "originDestinationId": "1",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "paymentCardRequired": false,
+      "duration": "PT13H5M",
+      "segments": [
+        {
+          "departure": {
+            "iataCode": "SFO",
+            "terminal": "I",
+            "at": "2025-08-14T23:05:00"
+          },
+          "arrival": {
+            "iataCode": "AKL",
+            "terminal": "I",
+            "at": "2025-08-16T07:10:00"
+          },
+          "carrierCode": "UA",
+          "number": "917",
+          "aircraft": {
+            "code": "777"
+          },
+          "id": "2",
+          "numberOfStops": 0,
+          "blacklistedInEU": false,
+          "availabilityClasses": [
+            {
+              "numberOfBookableSeats": 9,
+              "class": "J"
+            },
+            {
+              "numberOfBookableSeats": 9,
+              "class": "C"
+            },
+            {
+              "numberOfBookableSeats": 9,
+              "class": "D"
+            },
+            {
+              "numberOfBookableSeats": 9,
+              "class": "Z"
+            },
+            {
+              "numberOfBookableSeats": 9,
+              "class": "P"
+            },
+            {
+              "numberOfBookableSeats": 9,
+              "class": "O"
+            },
+            {
+              "numberOfBookableSeats": 9,
+              "class": "A"
+            },
+            {
+              "numberOfBookableSeats": 9,
+              "class": "R"
+            },
+            {
+              "numberOfBookableSeats": 9,
+              "class": "Y"
+            },
+            {
+              "numberOfBookableSeats": 9,
+              "class": "B"
+            },
+            {
+              "numberOfBookableSeats": 9,
+              "class": "M"
+            },
+            {
+              "numberOfBookableSeats": 9,
+              "class": "U"
+            },
+            {
+              "numberOfBookableSeats": 9,
+              "class": "H"
+            },
+            {
+              "numberOfBookableSeats": 9,
+              "class": "Q"
+            },
+            {
+              "numberOfBookableSeats": 9,
+              "class": "V"
+            },
+            {
+              "numberOfBookableSeats": 9,
+              "class": "W"
+            },
+            {
+              "numberOfBookableSeats": 9,
+              "class": "S"
+            },
+            {
+              "numberOfBookableSeats": 9,
+              "class": "T"
+            },
+            {
+              "numberOfBookableSeats": 9,
+              "class": "L"
+            },
+            {
+              "numberOfBookableSeats": 9,
+              "class": "K"
+            },
+            {
+              "numberOfBookableSeats": 9,
+              "class": "G"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "dictionaries": {
+    "locations": {
+      "AKL": {
+        "cityCode": "AKL",
+        "countryCode": "NZ"
+      },
+      "SFO": {
+        "cityCode": "SFO",
+        "countryCode": "US"
+      }
+    }
+  }
+}

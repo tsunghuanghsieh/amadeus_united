@@ -1,0 +1,30 @@
+{
+  "originDestinations": [
+    {
+      "id": "[idx]",
+      "originLocationCode": "config[trips][idx]['flightFrom']",
+      "destinationLocationCode": "config[trips][idx]['flightTo']",
+      "departureDateTime": {
+        "date": "searchDate"
+      }
+    }
+  ],
+  "travelers": [
+    {
+      "id": "1",
+      "travelerType": "ADULT"
+    }
+  ],
+  "searchCriteria": {
+    "maxFlightOffers": 10,
+    "flightFilters": {
+      "airlines": ["UA"],
+      "connectionRestriction": {
+        "maxNumberOfConnections": 0
+      }
+    }
+  },
+  "sources": [
+    "GDS"
+  ]
+}

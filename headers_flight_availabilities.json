@@ -1,0 +1,12 @@
+{
+    "Accept": "application/json",
+    "Accept-Encoding": "gzip, deflate, br, zstd",
+    "Accept-Language": "en-US",
+    "Authorization": "Bearer ApiToken",
+    "Cache-Control": "no-cache",
+    "Content-Type": "application/vnd.amadeus+json",
+    "Dnt": "1",
+    "Pragma": "no-cache",
+    "X-HTTP-Method-Override": "GET",
+    "User-Agent": "PostmanRuntime/7.44.1"
+}
